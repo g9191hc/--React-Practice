@@ -9,9 +9,9 @@ import NotificationList from './chapter_06/NotificationList';
 const root = ReactDOM.createRoot(document.getElementById('root')); //VirtualDOM의 최상위노드 root 생성
 
 root.render(
-  <React.StrictMode> 
+  // <React.StrictMode> 
     <NotificationList />
-  </React.StrictMode>,
+  // </React.StrictMode>,
 );
 
 
