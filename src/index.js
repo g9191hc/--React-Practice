@@ -4,17 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import Clock from './chapter_04/Clock';
+import CommentList from './chapter_05/CommentList';
 
 const root = ReactDOM.createRoot(document.getElementById('root')); //VirtualDOM의 최상위노드 root 생성
 
-setInterval(() => {
-  root.render(
-    <React.StrictMode>
-      <Clock />
-    </React.StrictMode>
-  );
-}, 1000
+root.render(
+  <React.StrictMode> 
+    <CommentList />
+  </React.StrictMode>,
 );
 
 
