@@ -4,13 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import CommentList from './chapter_05/CommentList';
+import NotificationList from './chapter_06/NotificationList';
 
 const root = ReactDOM.createRoot(document.getElementById('root')); //VirtualDOM의 최상위노드 root 생성
 
 root.render(
   <React.StrictMode> 
-    <CommentList />
+    <NotificationList />
   </React.StrictMode>,
 );
 
